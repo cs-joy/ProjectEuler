@@ -1,11 +1,11 @@
 #include<stdio.h>
-
+#define LIMIT 1000
 
 int main()
 {
-    int start= 3, end = 1000, sum = 0;
+    int sum = 0;
 
-    for (int i=3; i<end; i++)
+    for (int i=0; i<LIMIT; i++)
     {
         if (i%5 == 0 || i % 3 == 0)
         {
